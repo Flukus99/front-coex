@@ -1,0 +1,47 @@
+body{
+    background-image: url("./assets/BG\ Login\ productos.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.login{
+    margin-top: 10%;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+    height: 100vh;
+}
+.login input{
+    width: 70%;
+    margin-bottom: 10px;
+    height: 40px;
+    
+    
+}
+.login button{
+    width: 70%;
+   
+}
+
+.logo_carga{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.banner{
+    background-image: url(./assets/BG\ Login\ productos.png);
+    position: fixed;
+    width: 100%;
+    display: none;
+}
+
+@media (max-width:1200px){
+    body{
+       
+        background-position:center;
+    }
+}
